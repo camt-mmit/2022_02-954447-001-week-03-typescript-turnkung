@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>DOM - Assignment</title>
+    <script type="module" src="./js/dom-assignment.js"></script>
+    <link rel="stylesheet" href="./css/dom-assignment.css" />
+</head>
+<body>
+    <template id="tmp-input">
+        <div class="cmp-input-container">
+            <label>
+                <b class="cmp-input-title">Number <span class="cmp-input-no"></span> :</b>
+                <input type="number" value="0" required>
+                <button type="button" class="cmp-remove-input">X</button>
+            </label>
+        </div>
+    </template>
+
+    <template id="tmp-section">
+        <section class="cmp-input-section">
+            <div>
+                <h3>Section <span class="cmp-section-no"></span></h3>
+                <button type="button" class="cmp-remove-section">X</button>
+                <button type="button" class="cmp-add-input">Add Input</button>
+            </div>
+            <div class="cmp-inputs-container"></div>
+            <div class="cmp-output-container">
+                <label>
+                    Result :
+                    <output class="cmp-result">0</output>
+                </label>
+            </div>
+        </section>
+    </template>
+
+    <main class="cmp-main-container">
+        <button type="button" class="cmp-add-section">Add Section</button>
+        <div class="cmp-sections-container"></div>
+    </main>
+</body>

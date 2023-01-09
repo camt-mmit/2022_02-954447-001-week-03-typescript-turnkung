@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DOM 06 - Final</title>
+        <script type="module" src="./js/dom-06-final.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="./css/dom-06-final.css" />
+    </head>
+    <body>
+        <template id="tmp-input">
+            <div class="cmp-input-container">
+                <table>
+                    <tr>
+                        <td><label>
+                            <b class="cmp-input-title">Number <span class="cmp-input-no"></span> :</b>
+                            <input type="number" value="0" required>
+                        </label>
+                        <button type="button" class="cmp-remove-input material-symbols-outlined">close</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </template>
+
+        <section class="cmp-input-section">
+            <div class="cmp-inputs-container">
+                <button type="button" class="cmp-add-input">Add Input</button>
+            </div>
+            <div class="cmp-output-container">
+                <label>
+                    <b>Result:</b>
+                    <output class="cmp-result">0</output>
+                </label>
+            </div>
+        </section>
+
+    </body>
+</html>

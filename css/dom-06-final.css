@@ -1,0 +1,29 @@
+.cmp-input-no {
+    margin-left: 3px;
+}
+.cmp-inputs-container {
+    display: block;
+}
+.cmp-remove-input {
+    font-size: 12px;
+    width: 30px;
+    height: 27px;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+.cmp-input-section {
+    border: 1px solid black;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+.cmp-output-container {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+.cmp-add-input {
+    margin-top: 5px;
+}
